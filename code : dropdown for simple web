@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: pink;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Pages</a>
+                    <div class="dropdown-content">
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>CONTACT US </h1>
+        <h1>To make your dreams come true</h1>
+        <h1>Innovation & you .  
+             
+              Don't hesitate to share your ideas'</h1>
+        <p>This is the contact page.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Website</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f8f8;
+            min-width: 100px;
+            box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.3);
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 13px 14px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f2f2
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropdownbutton {
+            background-color: #3e8f43;
+        }
+        .dropdownbutton {
+            background-color: #4CBF48;
+            color: white;
+            padding: 15px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button class="dropdownbutton">webs for contact</button>
+        <div class="dropdown-content">
+            <a href=" https://www.google.com.sg/?gfe_rd=cr&ei=eAOeWKD4B-PH8gfX6IKIAQ ">Google</a>
+            <a href=" https://m.facebook.com ">Facebook</a></a>
+            <a href=" https://www.instagram.com/accounts/login/ ">Instagram</a>
+        </div>
+    </div>
+
+</body> 
+
+</html>
